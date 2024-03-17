@@ -49,10 +49,11 @@ object MainScala extends App:
         case a if a == 0 => b
         case a if b == 0 => a
         case _ => gcd(b, a % b)
-        //case _ => a
+
+    /*Exercise 7 in Shapes.scala, ShapesTest.scala*/
     
-    println(gcd(8, 12))
-    println(gcd(11, 3))
+    /*println(gcd(8, 12))
+    println(gcd(11, 3))*/
 
     /*println(positiveMethod(1))
     println(positiveLambda(-11))*/
